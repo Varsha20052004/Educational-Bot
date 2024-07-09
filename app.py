@@ -6,7 +6,7 @@ import markdown2
 app = Flask(__name__)
 
 # Configure the Google Generative AI SDK
-genai.configure(api_key="YOUR_AOI_KEY")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Create the generative model
 generation_config = {
